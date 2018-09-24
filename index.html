@@ -1,0 +1,57 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Github Favorites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="head_asd">
+    My Github Favorites
+</div>
+<div class="main">
+    <div class="box1">
+        <form id="repoSearch" method="GET" action="#" onsubmit="return getData()">
+            <input type="text" id="repo" name="repo" placeholder="Enter Repo" onkeyup="checkLength()">
+            <input type="submit" name="search" value="Search">
+        </form>
+        
+        <table class="main-table">
+                <thead>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Language
+                    </th>
+                    <th>
+                        Latest Tag
+                    </th>
+                </thead>
+                <tbody id="main-table-body">
+                </tbody>
+        </table>
+    </div>
+    <div class="box2">
+            <table class="box2-table">
+                    <thead>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Language
+                        </th>
+                        <th>
+                            Latest Tag
+                        </th>
+                    </thead>
+                    <tbody id="box2-table-body">
+                    </tbody>
+            </table>
+    </div>  
+</div>
+</body>
+</html>

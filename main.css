@@ -1,0 +1,84 @@
+.head_asd {
+    background-color: #7433f1;
+    height: 4em; 
+    width: 100%;
+    line-height: 4em;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 1.5em;
+}
+
+/* https://www.w3docs.com/snippets/css/how-to-vertically-center-text-with-css.html */
+
+.box1, .box2 {
+    height: 85%;
+    width: 50%;
+    float: left;
+}
+
+.box2 {
+    background-color: #f3ecfe;
+}
+
+.box1 input[type="submit"] {
+    background-color: #7433f1;
+    padding: .85em 3em;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    /* text-align: center; */
+    /* margin: 3em 2em 0em 2em; */
+    /* margin-left: auto; */
+}
+
+.box1 input[type="text"] {
+    margin: 3em 2em 0em 2em;
+    width: 32em;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* margin: 8px 0; */
+}
+
+.box1 table {
+    margin-top: 4em;
+    margin-left: 2em;
+    text-align: left;
+}
+
+td {
+    margin: 2em;
+}
+
+a.full_name {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color:#7433f1;
+}
+
+table {
+    width: 90%;
+}
+
+.box2 table {
+    margin-top: 4em;
+    margin-left: 2em;
+    text-align: left;
+}
+
+input[type="button"] {
+    text-decoration: underline;
+    color: #7433f1;
+    background-color: Transparent;
+    cursor:pointer;
+    border: none;
+    outline:none;
+    /* background-repeat:no-repeat;
+    overflow: hidden;*/ 
+}
